@@ -1,0 +1,456 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins !important;
+    background-color: #FBFBFF;
+    transition: 0.4s linear;
+}
+
+/* navbar */
+.nav-link{
+    font-size: 16px;
+    font-weight: 600;
+    margin: auto;
+    padding-top: 5px;
+}
+.navbar .navbar-nav a{
+    color: #AAAAAA !important;
+}
+.navbar .navbar-nav a:hover{
+    color: #3626A7 !important;
+}
+.navbar .navbar-nav .active{
+    color: #3626A7 !important;
+}
+
+
+/* jumbotron */
+.jumbotron{
+    background-color: transparent !important;
+}
+.jumbotron .container .a{
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: #AAAAAA;
+}
+.jumbotron .container .b{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #AAAAAA;
+}
+.jumbotron .container .display-4{
+    font-size: 75px !important;
+    font-weight: 600 !important;
+    color: #3626A7;
+    text-align: center;
+}
+.jumbotron .container img{
+    height: 400px;
+    width: auto;
+}
+
+/* sosmed */
+.jumbotron .container .sosmed .icon{
+    font-size: 20px;
+    background: #3626A7;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px !important;
+    border-radius: 50%;
+    color: #FBFBFF;
+    margin: 5px;
+    transition: 0.3s linear;
+}
+.jumbotron .container .sosmed .icon:hover{
+    background: none;
+    color: #3626A7;
+    transform: scale(1.2);
+}
+
+/* menu home */
+.objek .garis{
+    margin-top: 15px;
+    height: 10px;
+    width: 80px;
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid #AAAAAA;
+    opacity: 50%;
+}
+.objek h1{
+    margin-top: 25px;
+    font-size: 75px !important;
+    font-weight: 700 !important;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    color: #AAAAAA !important;
+    opacity: 50%;
+}
+
+
+/* menu about me */
+.container .obme{
+    margin-top: -131px !important;
+}
+
+/* about me */
+.obme_konten{
+    height: auto !important;
+    margin-top: 10px !important;
+    background: #3626A7;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.5);
+}
+.obme_konten img{
+    height: 250px !important;
+    width: auto !important;
+    padding-bottom: 20px;
+}
+.obme_konten .b{
+    color: #FBFBFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.obme_konten .btn-danger{
+    background: #FF331F !important;
+    border-radius: 100px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    padding: 8px 12px;
+}
+.obme_konten .btn-danger:hover{
+    background: #FBFBFF !important;
+    color: #FF331F !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+
+/* My Skills */
+.kat_skill{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #3626A7;
+    text-align: center;
+}
+.skill_prog{
+    padding: 15px;
+    text-align: center;
+}
+.skill_prog img{
+    height: 90px;
+    width: auto;
+}
+.skill_prog img:hover{
+    padding: 7px;
+    transition: 0.3s linear;
+}
+
+
+/* project */
+.project h1{
+    margin-left: 35% !important;
+}
+.projects .card{
+    background: #AAAAAA;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease;
+}
+.projects .gambar{
+    overflow: hidden;
+}
+.projects .card img{
+    transition: 0.3s linear;
+}
+.projects .card img:hover{
+    transform: rotate(15deg);
+    transform: scale(1.2);
+}
+.projects .card-body{
+    text-align: center;
+    padding: 20px 60px !important;
+    
+}
+.projects .card:hover{
+    background: #DDDDDD;
+}
+.projects .card-title{
+    font-size: 25px;
+    font-weight: 600;
+    color: #3626A7;
+    margin-bottom: 50px;
+}
+.projects .card-text{
+    font-size: 15px;
+    font-weight: 600;
+    color: #0D0106;
+}
+
+
+/* Kontak Footer */
+footer{
+    background: #3626A7 !important;
+    font-family: poppins !important;
+}
+.footer .container .sosmed .icon{
+    font-size: 20px;
+    background: #0D0106;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px !important;
+    border-radius: 50%;
+    color: #3626A7;
+    margin: 5px;
+    transition: 0.3s linear;
+}
+.footer .container .sosmed .icon:hover{
+    background: none;
+    color: #0D0106;
+    transform: scale(1.2);
+}
+.footer .fa-phone-alt{
+    margin-top: 2px;
+    font-size: 20px;
+    background: #0D0106;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px !important;
+    border-radius: 20px;
+    color: #3626A7;
+    margin: 5px;
+    transition: 0.3s linear;
+}
+.footer .fa-phone-alt:hover{
+    background: #2B2B2B;
+    color: #AAAAAA;
+    font-weight: 600;
+}
+.footer .fa-map-marker-alt{
+    margin-top: 2px;
+    font-size: 20px;
+    background: #0D0106;
+    width: 280px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px !important;
+    border-radius: 20px;
+    color: #3626A7;
+    margin: 5px;
+    transition: 0.3s linear;
+}
+.footer .fa-map-marker-alt:hover{
+    background: #2B2B2B;
+    color: #AAAAAA;
+    font-weight: 600;
+}
+.footer hr{
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+    opacity: 50%;
+    width: 94%;
+}
+.footer h6{
+    color: #AAAAAA !important;
+    font-size: 15px;
+}
+
+
+/* Desktop */
+@media (min-width: 992px){
+    .nav-link {
+        font-size: 16px;
+        font-weight: 600;
+        margin-right: 10px;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 4px solid #3626A7;
+        width: 20px;
+        margin-right: auto;
+        padding-bottom: 1px;
+        margin-bottom: -5px;
+    }
+    .label{
+        margin-top: 5px;
+    }
+    .jumbotron .container .a{
+        font-size: 20px !important;
+        font-weight: 600 !important;
+        color: #AAAAAA;
+    }
+    .jumbotron .container .b{
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        color: #AAAAAA;
+    }
+    .jumbotron .container .display-4{
+        font-size: 80px !important;
+        font-weight: 700 !important;
+        color: #3626A7;
+        text-align: left;
+    }
+    .jumbotron .container img{
+        margin-top: -90px;
+        height: 550px;
+        width: auto;
+    }
+    .jumbotron .container .sosmed .icon{
+        font-size: 25px;
+        background: #3626A7;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px !important;
+        border-radius: 50%;
+        color: #FBFBFF;
+        margin: 5px;
+        transition: 0.3s linear;
+    }
+    .jumbotron .container .sosmed .icon:hover{
+        background: none;
+        color: #3626A7;
+        transform: scale(1.2);
+    }
+    .objek h1{
+        font-size: 80px !important;
+        font-weight: 700 !important;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 2px;
+        color: #AAAAAA !important;
+        opacity: 50%;
+    }
+
+
+    .obme_konten{
+        margin-top: 10px !important;
+        height: 430px !important;
+        background: #3626A7;
+        padding: 80px !important;
+        border-radius: 20px;
+    }
+    .obme_konten img{
+        height: 300px !important;
+        width: auto !important;
+    }
+    .obme_konten .b{
+        color: #FBFBFF;
+        text-align: left;
+        font-size: 18px;
+        font-weight: 600;
+        padding-top: 20px;
+        padding-bottom: 80px;
+        margin-left: 40px;
+    }
+    .obme_konten .btn{
+        float: right;
+    }
+    .obme_konten .btn-danger{
+        background: #FF331F !important;
+        border-radius: 100px !important;
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        padding: 10px 16px;
+    }
+    .obme_konten .btn-danger:hover{
+        background: #FBFBFF !important;
+        color: #FF331F !important;
+        font-size: 18px !important;
+        font-weight: 600 !important;
+    }
+    .skill_prog img{
+        height: 110px;
+        width: auto;
+    }
+
+    .projects .card-text{
+        font-size: 18px;
+    }
+
+
+    .footer .container .sosmed .icon{
+        font-size: 30px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px !important;
+    }
+    .footer .fa-phone-alt{
+        font-size: 25px;
+        background: #0D0106;
+        width: 215px;
+        height: 60px;
+        line-height: 60px !important;
+    }
+    .footer .fa-map-marker-alt{
+        font-size: 25px;
+        background: #0D0106;
+        width: 325px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px !important;
+    }
+    .footer img{
+        margin-top: -70px !important;
+        margin-left: 30% !important;
+    }
+    .footer hr{
+        border: 2px solid #AAAAAA;
+        width: 100%;
+    }
+    .footer h6{
+        font-size: 20px;
+    }
+}
+
+
+
+/* darkMode */
+body.dark{
+    background: #2B2B2B;
+}
+
+.checkbox{
+    opacity: 0;
+    position: absolute;
+}
+
+.label{
+    background-color: #3626A7;
+    display: flex;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 5px;
+    height: 20px;
+    width: 45px;
+    position: relative;
+}
+
+.ball{
+    background-color: #FBFBFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    height: 18px;
+    width: 18px;
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label{
+    background-color: #0D0106;
+}
+
+.checkbox:checked + .label .ball{
+    transform: translateX(24px);
+    background-color: #3626A7;
+}
